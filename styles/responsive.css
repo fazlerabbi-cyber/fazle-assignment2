@@ -1,0 +1,50 @@
+@media screen and (max-width:576px) {
+    .logo {
+        display: block;
+        margin-right: 20px;
+
+    }
+    .type{
+        display: none;
+    }
+    .free{
+        top: 600px;
+        left: 275px;
+        
+    }
+    .video{
+        top: 810px;
+        left: 120px;
+    }
+    .container-style{
+        flex-direction: column;
+    }
+    .image-style{
+        flex-direction: column;
+    }
+      .style-run{
+        flex-direction: column;
+
+    }
+    .bmi-section{
+        flex-direction: column;
+        margin-top: 20px;
+        
+    }
+    
+    .img-size-container{
+        flex-direction: column;
+        grid-template-columns:1fr ;
+        margin-top: 20px;
+    }
+    .teams-img{
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+      justify-content: center;
+      align-items: center;
+}
+.footer{
+    flex-direction: column;
+}
+}
