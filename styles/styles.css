@@ -4,6 +4,9 @@
     padding: 0;
 
    }
+   .text-allcolor{
+    color: #222222;
+   }
    .all-type{
     background-color: black;
     color: white;
@@ -75,6 +78,7 @@ main{
     height: 54px;
     border-radius: 42px;
     margin-top: 20px;
+    color: white;
    }  
    .btn-primary1{
     width: 224px;
@@ -85,8 +89,10 @@ main{
     border: 1px solid;
    }
    .container-size p{
-     margin: 24px 0 24px 0;
-     
+     margin: 24px 0 24px 0; 
+   }
+   .p-color{
+    color: #ffffff8c;
    }
    .free{
     
@@ -94,33 +100,56 @@ main{
     width: 145px;
     height: 20px;
     top: 190px;
-    left: 1050px;
-    border-radius: 10px;    
+    left: 1050px  
    }
+   .free-1{
+    background-color:  rgba(255, 255, 255, 0.205);
+    border-radius: 12px;
+    text-align: center;
+   }
+   .free-1 h1 p{
+    height: 50px;
+    width: 120px;
 
+   }
    
-   .free h1 p {
-     background-color: rgba(255, 255, 255, 0.1);
-    }
-    .text-number{
-        text-align: center;
-    }
+  
+   
    
    
    .video{
     position: absolute;
-    width: 145px;
-    height: 20px;
+    width: 165px;
+    height: 50px;
     top: 430px;
     left: 850px;
+}
+.dot {
+    position: absolute;
+    top: 13px;
+    left: 0px;
+    padding: 5px;
+  
+}
 
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #E6533C;
+    border-radius: 50%;
+    display: inline-block;
+    
+}
+    
+   
+   .video-2{
+    background-color:  rgba(255, 255, 255, 0.205);
+    border-radius: 12px;
+    text-align: center;
    }
-   .video h1{
-    background-color: rgba(255, 255, 255, 0.1);
+   .img-text4{
+    text-align: center;
    }
-    .video p{
-        background-color: rgba(255, 255, 255, 0.1);
-    }
     
   .image-style{
     display: flex;
@@ -132,20 +161,23 @@ main{
     border-radius: 50%;
 
 }
-
-
-.run-style img{
-    width: 366px;
-    height: 312px;
+ .run-img{
+    background-image: url('../images/run.jpg') ;
+    height: 300px;
+    width: 300px;
+    background-position: -677px -160px;
+    background-repeat: no-repeat;
+    background-size: 1304px 815px;
     border-radius: 18px;
-}
+    margin-top: 20px;
+ }
 .style-run{
     display: flex;
     padding: 10px;
     margin-top: 20px;
     justify-content: space-between;
     background-color:#222222 ;
-    padding: 22px;
+    padding: 40px;
 
 }
 .run-text{
@@ -156,7 +188,7 @@ table{
     margin-top: 20px;
 }
 td ,th{
-    border: 1px solid white;
+    border: 1px solid rgba(255, 255, 255, 0.1);
     padding: 10px;
 }
  
@@ -165,8 +197,44 @@ td ,th{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
-    border-radius: 5px;
+    
+     
+ 
+   
+   
 }
+.input-type input{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 5px;
+    height: 48px;
+    
+}
+#select-0{
+    grid-column: 1 /span 2;
+    width: 100%;
+    height: 35px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.276) ;
+    
+
+}
+#gender{
+    background-color: rgba(255, 255, 255, 0.107);
+    border: none;
+    color:  rgba(255, 255, 255, 0.276);
+}
+
+.bmi-2{
+    margin-top: 30px;
+    padding: 20px;
+}
+.bmi-color{
+  color: rgba(255, 255, 255, 0.511);
+}
+
 .bmi-center{
     text-align: center;
     margin-top: 20px;
@@ -184,7 +252,11 @@ td ,th{
     align-items: center;
     background-color: #222222;
     margin-top: 20px;
+    padding: 30px;
 }
+
+
+
 
 
 .text-style{
@@ -195,24 +267,53 @@ td ,th{
     align-items: center;
     margin-top: 20px;
 }
-
-
-.img-size-container img{
-    width: 80%;
-    height: 90%;
-    border-radius: 10px;
+.img-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
     
 }
-.img-size-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+.img-container>div>div{
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+    position: relative;
 }
+.img-textsize{
+    position: absolute;
+    top: 220px;
+    left: 20px;
+}
+
+
+.img-1{
+    background-image: url(../images/trainer1.png);
+}
+.img-2{
+    background-image: url(../images/trainer2.png);
+}
+.img-3{
+    background-image: url(../images/trainer3.png);
+}
+.img-4{
+    background-image: url(../images/trainer4.png);
+}
+.img-5{
+    background-image: url(../images/trainer5.png);
+
+}
+.img-6{
+    background-image: url(../images/trainer6.png);
+}
+
 
 
 .footer{
     display: flex;
     justify-content: space-between;
-    background:;
+    
     padding: 0px;
     background-color: #222222;
     padding: 40px; 
@@ -221,7 +322,11 @@ td ,th{
 
 .footer div{
     margin: 20px;
+    border: none;
 
+}
+.footer-text{
+    font-size: 30px;
 }
 .color-text{
     color: #E6533C;
@@ -230,5 +335,11 @@ td ,th{
     display: flex;
     justify-content: center;
     align-items: center;
+ 
   
+}
+.footer-end{
+    border-top: 1px solid #544141;
+    margin-top: 30px;
+    padding: 40px;
 }

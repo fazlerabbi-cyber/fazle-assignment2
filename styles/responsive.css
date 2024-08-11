@@ -32,18 +32,12 @@
         
     }
     
-    .img-size-container{
+    .img-container{
         flex-direction: column;
         grid-template-columns:1fr ;
         margin-top: 20px;
     }
-    .teams-img{
-      display: flex;
-      flex-direction: column;
-      margin: 0 auto;
-      justify-content: center;
-      align-items: center;
-}
+    
 .footer{
     flex-direction: column;
 }
